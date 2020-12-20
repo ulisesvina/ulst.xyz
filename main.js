@@ -26,4 +26,4 @@ app.get("*", (req, res) => {
     })
 });
 
-app.listen(25565)
+app.listen(80)
