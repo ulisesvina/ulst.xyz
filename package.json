@@ -1,0 +1,31 @@
+{
+  "name": "ulst.xyz",
+  "version": "1.0.0",
+  "description": "URL Shortener",
+  "main": "main.js",
+  "scripts": {
+    "test": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ulisesvina/ulst.xyz.git"
+  },
+  "keywords": [
+    "url",
+    "shortener"
+  ],
+  "author": "Ulises Viña",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ulisesvina/ulst.xyz/issues"
+  },
+  "homepage": "https://github.com/ulisesvina/ulst.xyz#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  }
+}
